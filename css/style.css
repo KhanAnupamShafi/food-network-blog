@@ -1,3 +1,128 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 24px;
+}
+h1 span {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #ffd12f;
+}
+
+section {
+  height: 700px;
+  padding-bottom: 50px;
+}
+.welcome-section {
+  display: flex;
+  background-image: url("../image/Frame 57.jpg");
+  background-size: cover;
+}
+
+section a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: antiquewhite;
+  background: linear-gradient(90deg, #fba24f, #ff1e1e);
+  box-shadow: 0px 5px 25px rgba(172, 80, 20, 0.479);
+  border-radius: 100px;
+  padding: 20px 30px;
+  margin-top: 5%;
+}
+
+.half-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 2%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.half-container img {
+  max-width: 100%;
+  max-height: 100%; /* to make image fit in div container */
+}
+
+/* section-about us starts -->*/
+
+.about-section {
+  display: flex;
+  background: url("../image/frame-about-us.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* section-recipes starts -->*/
+.recipe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 150px;
+}
+.recipe-text {
+  padding: 2.5em 0;
+  width: 30%;
+  text-align: center;
+  text-indent: 5px;
+}
+
+.recipe-collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+}
+
+.recipe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 25%;
+  margin-right: 20px;
+  padding-top: 1%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+
+  background-color: antiquewhite;
+  border-radius: 30px;
+}
+
+.recipe-box img {
+  margin-top: 5px;
+  width: 90%;
+}
+
+.recipe-description {
+  text-align: justify;
+  padding: 2%;
+  margin: 2%;
+}
+/* recipe section  ends */
+
+/* footer starts */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2vw 2vw;
+  background-color: #242329;
+}
+
+footer h2 {
+  font-size: 1.5;
+  color: aliceblue;
+}
+footer span {
+  color: #fba24f;
+}
+footer p {
+  color: aliceblue;
 }
