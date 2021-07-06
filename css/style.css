@@ -10,6 +10,7 @@ h1 span {
   text-transform: uppercase;
   font-size: 2em;
   color: #ffd12f;
+  margin-bottom: 5px;
 }
 
 section {
@@ -19,6 +20,7 @@ section {
 .welcome-section {
   display: flex;
   background-image: url("../image/Frame 57.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -38,6 +40,7 @@ section a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   width: 40%;
   margin: 2%;
   padding-left: 5%;
@@ -53,12 +56,16 @@ section a {
 
 .about-section {
   display: flex;
-  background: url("../image/frame-about-us.jpg") no-repeat center center fixed;
+  background-image: url("../image/frame-about-us.jpg");
+
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* section-recipes starts -->*/
 .recipe-section {
+  background: url("../image/banner-food.png") no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,6 +111,32 @@ section a {
   margin: 2%;
 }
 /* recipe section  ends */
+.video-section {
+  background-color: #fba24f;
+  display: flex;
+  flex: 1 3 auto;
+  width: 100%;
+}
+.video-section span {
+  font-size: 2.5em;
+}
+.video-content {
+  overflow: hidden;
+  width: 30%;
+  text-align: justify;
+}
+
+.featured-video {
+  width: 60vw;
+}
+
+.featured-video iframe {
+  margin: 0 auto;
+  border: 10px outset #ddd;
+}
+.half-container iframe {
+  width: 100%;
+}
 
 /* footer starts */
 footer {
@@ -112,17 +145,18 @@ footer {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 2vw 2vw;
+  padding: 2vw 2vw 4vw;
+  color: antiquewhite;
   background-color: #242329;
 }
 
 footer h2 {
   font-size: 1.5;
-  color: aliceblue;
 }
 footer span {
   color: #fba24f;
 }
 footer p {
+  text-align: center;
   color: aliceblue;
 }
